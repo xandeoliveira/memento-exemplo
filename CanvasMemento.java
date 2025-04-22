@@ -1,13 +1,13 @@
-import java.util.List;
+import java.awt.image.BufferedImage;
 
 public class CanvasMemento {
-    private final List<String> estado;
+    private final BufferedImage estado;
 
-    public CanvasMemento(List<String> estado) {
+    public CanvasMemento(BufferedImage estado) {
         this.estado = estado;
     }
 
-    public List<String> getEstado() {
+    public BufferedImage getEstado() {
         return estado;
     }
 }
