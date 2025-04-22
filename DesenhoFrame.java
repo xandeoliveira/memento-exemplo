@@ -6,6 +6,7 @@ public class DesenhoFrame extends JFrame {
     private final CanvasPanel canvas;
     private final CanvasHistory history;
 
+    @SuppressWarnings("unused")
     public DesenhoFrame() {
         super("App de Rabiscos (Memento)");
 
