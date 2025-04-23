@@ -12,10 +12,6 @@ public class Canvas {
         System.out.println("Riscos atuais: " + riscos);
     }
 
-    public CanvasMemento start() {
-        return new CanvasMemento(new ArrayList<>());
-    }
-
     public CanvasMemento salvar() {
         return new CanvasMemento(new ArrayList<>(riscos));
     }
